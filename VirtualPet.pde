@@ -1,7 +1,7 @@
 void setup ()
 {
   size (600, 600);
-  background (199, 201, 224);
+  background (126, 175, 139);
   
 }
 
@@ -17,12 +17,22 @@ noStroke();
   ellipse (175, 225, 100, 100);
   ellipse (425, 225, 100, 100);
   
-  //face
+  //ears (white) 
+  fill (255, 255, 255);
+  
+  ellipse (175, 225, 45, 45);
+  ellipse (425, 225, 45, 45);
+  
+  //face  
+   stroke (150, 150, 150);
+  strokeWeight(2.5);
   fill (255, 255, 255);
   
   ellipse (300, 300, 320, 250);
+  
+  noStroke();
 
-  fill (0, 0, 0);
+  fill (30, 30, 30);
   
   ellipse (225, 285, 60, 80);
   ellipse (375, 285, 60, 80);
@@ -44,7 +54,7 @@ noStroke();
   fill (0, 0, 0);
   ellipse (300, 315, 30, 20);
 
-  //mouth???
+  //mouth??? can this even be considered a mouth
   stroke(0, 0, 0);
   strokeWeight(3);
   noFill();
