@@ -1,6 +1,6 @@
 void setup ()
 {
-  size (600, 600);
+  size (600, 525);
   background (126, 175, 139);
   
 }
@@ -10,9 +10,19 @@ void draw ()
 
 noStroke();
 
+  //body 
+  fill (50, 50, 50);
+  ellipse (300, 500, 275, 400);
+  fill (255, 255, 255);
+  ellipse (300, 600, 250, 300);
+  
+  //arms 
+  fill (50, 50, 50);
+  ellipse (210, 490, 75, 40);
+  ellipse (390, 490, 75, 40);
   
   //ears
-  fill (0, 0, 0);
+  fill (50, 50, 50);
   
   ellipse (175, 225, 100, 100);
   ellipse (425, 225, 100, 100);
@@ -32,7 +42,7 @@ noStroke();
   
   noStroke();
 
-  fill (30, 30, 30);
+  fill (50, 50, 50);
   
   ellipse (225, 285, 60, 80);
   ellipse (375, 285, 60, 80);
@@ -51,11 +61,11 @@ noStroke();
  
   
   //nose
-  fill (0, 0, 0);
+  fill (50, 50, 50);
   ellipse (300, 315, 30, 20);
 
   //mouth??? can this even be considered a mouth
-  stroke(0, 0, 0);
+  stroke(50, 50, 50);
   strokeWeight(3);
   noFill();
   arc(285, 325, 30, 40, 0, PI);
